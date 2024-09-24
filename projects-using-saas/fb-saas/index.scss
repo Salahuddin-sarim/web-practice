@@ -1,0 +1,146 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+.wrapper {
+  display: flex;
+  padding: 0 15px;
+  min-height: 100vh;
+  justify-content: center;
+  align-items: center;
+  background: #f0f2f5;
+}
+.fblogo-form {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1000px;
+  width: 100%;
+  .logo-container {
+    margin-bottom: 90px;
+    .logo {
+      color: #1877f2;
+      font-size: 4rem;
+      margin-bottom: 10px;
+    }
+    .para {
+      font-size: 1.75rem;
+      white-space: nowrap;
+    }
+  }
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  background: #fff;
+  border-radius: 8px;
+  /* padding: 10px 0px 24px; */
+  padding: 20px;
+  margin: 40px 0px 0px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1), 0 8px 16px rgba(0, 0, 0, 0.1);
+  max-width: 400px;
+  width: 100%;
+  input {
+    height: 55px;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    /* margin-bottom: 15px; */
+    margin: 5px;
+    font-size: 1rem;
+    padding: 0 14px;
+  }
+}
+
+.login {
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background: #1877f2;
+  padding: 0 14px;
+  border-radius: 6px;
+  color: #fff;
+  font-size: 1.25rem;
+  font-weight: 600;
+  transition: 0.2s ease;
+  height: 55px;
+  width: 100%;
+  margin: 5px;
+}
+.forgot {
+  color: #1877f2;
+  font-size: 0.875rem;
+  text-align: center;
+  margin: 0 auto;
+  display: block;
+  padding: 20px;
+}
+
+.button {
+  margin-top: 25px;
+  text-align: center;
+  margin-bottom: 20px;
+  a {
+    text-decoration: none;
+    margin-top: 25px;
+    /* text-align: center; */
+    margin-bottom: 20px;
+    padding: 15px 20px;
+    background: #42b72a;
+    border-radius: 6px;
+    color: #ffffff;
+    font-size: 1.063rem;
+    font-weight: 600;
+    transition: 0.2s ease;
+  }
+}
+::placeholder {
+  color: #777;
+  font-size: 1.063rem;
+}
+
+hr {
+  border: none;
+  height: 1px;
+  background-color: #ccc;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+.below {
+  margin-top: 30px;
+}
+.footer-langs {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+}
+footer {
+  ol {
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+    padding: 8px 0;
+
+    margin-left: 3vh;
+    li {
+      padding-right: 20px;
+      font-size: 12px;
+      color: #8a8d91;
+      a {
+        text-decoration: none;
+        color: #8a8d91;
+        :hover {
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+  small {
+    font-size: 12px;
+    color: #8a8d91;
+    margin-left: 3vh;
+  }
+}
